@@ -8,17 +8,29 @@
   <a href="https://github.com/Geekmister/AlgorithmProblem"><img src="https://img.shields.io/github/forks/Geekmister/AlgorithmProblem?style=for-the-badge" alt="GitHub Forks"></a>
   <a href="https://github.com/Geekmister/AlgorithmProblem"><img src="https://img.shields.io/github/issues/Geekmister/AlgorithmProblem?style=for-the-badge" alt="GitHub Issues"></a>
   <a href="https://github.com/Geekmister/AlgorithmProblem"><img src="https://img.shields.io/github/license/Geekmister/AlgorithmProblem?style=for-the-badge" alt="GitHub License"></a>
+  <a href="https://github.com/Geekmister/AlgorithmProblem"><img src="https://img.shields.io/github/repo-size/Geekmister/AlgorithmProblem?style=for-the-badge" alt="GitHub Repo Size"></a>
+  <a href="https://github.com/Geekmister/AlgorithmProblem"><img src="https://img.shields.io/github/last-commit/Geekmister/AlgorithmProblem?style=for-the-badge" alt="GitHub Last Commit"></a>
 </div>
 
 ## 📚 项目介绍
 
 这是一个包含 100 道算法题的集合，每道题都有详细的中英文解释、使用场景、算法难度、时间复杂度、空间复杂度和测试代码。这些算法题涵盖了各种常见的算法类型，适合算法学习和面试准备。
 
+### 🎯 项目特色
+
+- **详细的算法解释**: 每道题都有详细的中英文算法解释
+- **完整的测试代码**: 每个文件都包含 `if __name__ == "__main__"` 块和测试代码
+- **多种算法类型**: 涵盖数组、链表、字符串、二叉树、动态规划等多种算法类型
+- **不同难度等级**: 包含简单、中等、困难三个难度等级的题目
+- **清晰的文件结构**: 每个算法题都有独立的文件，命名合理
+- **易于使用**: 可以直接运行每个文件来测试算法的正确性
+
 ## 🛠️ 技术栈
 
 - **语言**: Python 3
 - **开发环境**: 任何支持 Python 3 的环境
 - **测试方法**: 每个文件都包含 `if __name__ == "__main__"` 块和测试代码
+- **版本控制**: Git
 
 ## 📊 算法难度分布
 
@@ -27,6 +39,10 @@
 | 简单 | 25 | 25% |
 | 中等 | 50 | 50% |
 | 困难 | 25 | 25% |
+
+<div align="center">
+  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=pie%20chart%20showing%20algorithm%20difficulty%20distribution%20with%2025%20easy%2050%20medium%2025%20hard%20in%20modern%20style&image_size=square" alt="Algorithm Difficulty Distribution" width="400">
+</div>
 
 ## 📁 算法类别分类
 
@@ -76,6 +92,10 @@
 - **中等**: 跳跃游戏、跳跃游戏 II
 - **困难**: 买卖股票的最佳时机 III、买卖股票的最佳时机 IV
 
+<div align="center">
+  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bar%20chart%20showing%20algorithm%20category%20distribution%20in%20modern%20style&image_size=landscape_16_9" alt="Algorithm Category Distribution" width="600">
+</div>
+
 ## 🚀 如何使用
 
 ### 1. 克隆仓库
@@ -97,7 +117,21 @@ python python/two_sum.py
 
 每个文件都包含测试用例，可以直接运行文件来验证算法的正确性。
 
+### 4. 查看算法详情
+
+每个算法题文件都包含详细的中英文解释、使用场景、算法难度、时间复杂度、空间复杂度和测试代码。例如，查看两数之和的算法详情：
+
+```bash
+cat python/two_sum.py
+```
+
+<div align="center">
+  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=code%20editor%20showing%20algorithm%20code%20with%20comments%20in%20modern%20style&image_size=landscape_16_9" alt="Algorithm Code Example" width="600">
+</div>
+
 ## 📋 算法列表
+
+### 数组操作
 
 | 序号 | 题目 | 难度 | 类别 | 文件 |
 |------|------|------|------|------|
@@ -106,6 +140,25 @@ python python/two_sum.py
 | 3 | 四数之和 | 中等 | 数组操作、双指针 | [four_sum.py](python/four_sum.py) |
 | 4 | 盛最多水的容器 | 中等 | 数组操作、双指针 | [container_with_most_water.py](python/container_with_most_water.py) |
 | 5 | 接雨水 | 困难 | 数组操作、双指针 | [trapping_rain_water.py](python/trapping_rain_water.py) |
+| 58 | 移除元素 | 简单 | 数组操作 | [remove_element.py](python/remove_element.py) |
+| 59 | 删除排序数组中的重复项 | 简单 | 数组操作 | [remove_duplicates.py](python/remove_duplicates.py) |
+| 62 | 长度最小的子数组 | 中等 | 双指针 | [minimum_size_subarray_sum.py](python/minimum_size_subarray_sum.py) |
+| 63 | 螺旋矩阵 | 中等 | 数组操作 | [spiral_matrix.py](python/spiral_matrix.py) |
+| 64 | 旋转图像 | 中等 | 数组操作 | [rotate_image.py](python/rotate_image.py) |
+| 65 | 矩阵置零 | 中等 | 数组操作 | [set_matrix_zeroes.py](python/set_matrix_zeroes.py) |
+| 66 | 合并两个有序数组 | 简单 | 数组操作 | [merge_sorted_array.py](python/merge_sorted_array.py) |
+| 67 | 加一 | 简单 | 数组操作 | [plus_one.py](python/plus_one.py) |
+| 72 | 多数元素 | 简单 | 数组操作 | [majority_element.py](python/majority_element.py) |
+| 73 | 杨辉三角 | 简单 | 数组操作 | [pascals_triangle.py](python/pascals_triangle.py) |
+| 74 | 杨辉三角 II | 简单 | 数组操作 | [pascals_triangle_ii.py](python/pascals_triangle_ii.py) |
+| 98 | 颜色分类 | 中等 | 数组操作 | [sort_colors.py](python/sort_colors.py) |
+| 99 | 合并区间 | 中等 | 数组操作 | [merge_intervals.py](python/merge_intervals.py) |
+| 100 | 插入区间 | 中等 | 数组操作 | [insert_interval.py](python/insert_interval.py) |
+
+### 链表操作
+
+| 序号 | 题目 | 难度 | 类别 | 文件 |
+|------|------|------|------|------|
 | 6 | 合并两个有序链表 | 简单 | 链表操作 | [merge_two_lists.py](python/merge_two_lists.py) |
 | 7 | 反转链表 | 简单 | 链表操作 | [reverse_linked_list.py](python/reverse_linked_list.py) |
 | 8 | 两数相加 | 中等 | 链表操作 | [add_two_numbers.py](python/add_two_numbers.py) |
@@ -114,6 +167,11 @@ python python/two_sum.py
 | 11 | 环形链表 | 中等 | 链表操作 | [linked_list_cycle.py](python/linked_list_cycle.py) |
 | 12 | 合并 K 个升序链表 | 困难 | 链表操作 | [merge_k_sorted_lists.py](python/merge_k_sorted_lists.py) |
 | 13 | K 个一组翻转链表 | 困难 | 链表操作 | [reverse_nodes_in_k_group.py](python/reverse_nodes_in_k_group.py) |
+
+### 字符串操作
+
+| 序号 | 题目 | 难度 | 类别 | 文件 |
+|------|------|------|------|------|
 | 14 | 最长公共前缀 | 简单 | 字符串操作 | [longest_common_prefix.py](python/longest_common_prefix.py) |
 | 15 | 有效的括号 | 简单 | 字符串操作 | [valid_parentheses.py](python/valid_parentheses.py) |
 | 16 | 回文数 | 简单 | 字符串操作 | [palindrome_number.py](python/palindrome_number.py) |
@@ -122,6 +180,16 @@ python python/two_sum.py
 | 19 | 最长无重复字符的子串 | 中等 | 字符串操作、哈希表 | [longest_substring_without_repeating_characters.py](python/longest_substring_without_repeating_characters.py) |
 | 20 | 电话号码的字母组合 | 中等 | 字符串操作、回溯 | [letter_combinations_of_a_phone_number.py](python/letter_combinations_of_a_phone_number.py) |
 | 21 | 编辑距离 | 困难 | 字符串操作、动态规划 | [edit_distance.py](python/edit_distance.py) |
+| 68 | 二进制求和 | 简单 | 字符串操作 | [add_binary.py](python/add_binary.py) |
+| 69 | 实现 strStr() | 简单 | 字符串操作 | [str_str.py](python/str_str.py) |
+| 70 | 最后一个单词的长度 | 简单 | 字符串操作 | [length_of_last_word.py](python/length_of_last_word.py) |
+| 71 | 有效的回文 | 简单 | 字符串操作 | [valid_palindrome.py](python/valid_palindrome.py) |
+| 75 | 反转整数 | 简单 | 字符串操作 | [reverse_integer.py](python/reverse_integer.py) |
+
+### 二叉树操作
+
+| 序号 | 题目 | 难度 | 类别 | 文件 |
+|------|------|------|------|------|
 | 22 | 二叉树的最大深度 | 简单 | 二叉树操作 | [maximum_depth_of_binary_tree.py](python/maximum_depth_of_binary_tree.py) |
 | 23 | 二叉树的最小深度 | 简单 | 二叉树操作 | [minimum_depth_of_binary_tree.py](python/minimum_depth_of_binary_tree.py) |
 | 24 | 对称二叉树 | 简单 | 二叉树操作 | [symmetric_tree.py](python/symmetric_tree.py) |
@@ -138,44 +206,6 @@ python python/two_sum.py
 | 35 | 二叉树中的最大路径和 | 困难 | 二叉树操作 | [binary_tree_maximum_path_sum.py](python/binary_tree_maximum_path_sum.py) |
 | 36 | 从前序与中序遍历序列构造二叉树 | 困难 | 二叉树操作 | [construct_binary_tree_from_preorder_and_inorder_traversal.py](python/construct_binary_tree_from_preorder_and_inorder_traversal.py) |
 | 37 | 从中序与后序遍历序列构造二叉树 | 困难 | 二叉树操作 | [construct_binary_tree_from_inorder_and_postorder_traversal.py](python/construct_binary_tree_from_inorder_and_postorder_traversal.py) |
-| 38 | 爬楼梯 | 简单 | 动态规划 | [climbing_stairs.py](python/climbing_stairs.py) |
-| 39 | 最大子序和 | 简单 | 动态规划 | [maximum_subarray.py](python/maximum_subarray.py) |
-| 40 | 买卖股票的最佳时机 | 简单 | 动态规划、贪心 | [best_time_to_buy_and_sell_stock.py](python/best_time_to_buy_and_sell_stock.py) |
-| 41 | 最小路径和 | 中等 | 动态规划 | [minimum_path_sum.py](python/minimum_path_sum.py) |
-| 42 | 单词拆分 | 中等 | 动态规划 | [word_break.py](python/word_break.py) |
-| 43 | 买卖股票的最佳时机 III | 困难 | 动态规划、贪心 | [best_time_to_buy_and_sell_stock_iii.py](python/best_time_to_buy_and_sell_stock_iii.py) |
-| 44 | 买卖股票的最佳时机 IV | 困难 | 动态规划、贪心 | [best_time_to_buy_and_sell_stock_iv.py](python/best_time_to_buy_and_sell_stock_iv.py) |
-| 45 | 组合总和 | 中等 | 回溯 | [combination_sum.py](python/combination_sum.py) |
-| 46 | 组合总和 II | 中等 | 回溯 | [combination_sum_ii.py](python/combination_sum_ii.py) |
-| 47 | 全排列 | 中等 | 回溯 | [permutations.py](python/permutations.py) |
-| 48 | 全排列 II | 中等 | 回溯 | [permutations_ii.py](python/permutations_ii.py) |
-| 49 | 子集 | 中等 | 回溯 | [subsets.py](python/subsets.py) |
-| 50 | 子集 II | 中等 | 回溯 | [subsets_ii.py](python/subsets_ii.py) |
-| 51 | 单词搜索 | 中等 | 回溯 | [word_search.py](python/word_search.py) |
-| 52 | 二分查找 | 简单 | 二分查找 | [search_insert.py](python/search_insert.py) |
-| 53 | x 的平方根 | 简单 | 二分查找 | [sqrt_x.py](python/sqrt_x.py) |
-| 54 | 寻找两个正序数组的中位数 | 困难 | 二分查找、双指针 | [median_of_two_sorted_arrays.py](python/median_of_two_sorted_arrays.py) |
-| 55 | 跳跃游戏 | 中等 | 贪心 | [jump_game.py](python/jump_game.py) |
-| 56 | 跳跃游戏 II | 中等 | 贪心 | [jump_game_ii.py](python/jump_game_ii.py) |
-| 57 | 买卖股票的最佳时机 II | 简单 | 贪心 | [best_time_to_buy_and_sell_stock_ii.py](python/best_time_to_buy_and_sell_stock_ii.py) |
-| 58 | 移除元素 | 简单 | 数组操作 | [remove_element.py](python/remove_element.py) |
-| 59 | 删除排序数组中的重复项 | 简单 | 数组操作 | [remove_duplicates.py](python/remove_duplicates.py) |
-| 60 | 搜索插入位置 | 简单 | 二分查找 | [search_insert.py](python/search_insert.py) |
-| 61 | 最大子序和 | 简单 | 动态规划 | [max_subarray.py](python/max_subarray.py) |
-| 62 | 长度最小的子数组 | 中等 | 双指针 | [minimum_size_subarray_sum.py](python/minimum_size_subarray_sum.py) |
-| 63 | 螺旋矩阵 | 中等 | 数组操作 | [spiral_matrix.py](python/spiral_matrix.py) |
-| 64 | 旋转图像 | 中等 | 数组操作 | [rotate_image.py](python/rotate_image.py) |
-| 65 | 矩阵置零 | 中等 | 数组操作 | [set_matrix_zeroes.py](python/set_matrix_zeroes.py) |
-| 66 | 合并两个有序数组 | 简单 | 数组操作 | [merge_sorted_array.py](python/merge_sorted_array.py) |
-| 67 | 加一 | 简单 | 数组操作 | [plus_one.py](python/plus_one.py) |
-| 68 | 二进制求和 | 简单 | 字符串操作 | [add_binary.py](python/add_binary.py) |
-| 69 | 实现 strStr() | 简单 | 字符串操作 | [str_str.py](python/str_str.py) |
-| 70 | 最后一个单词的长度 | 简单 | 字符串操作 | [length_of_last_word.py](python/length_of_last_word.py) |
-| 71 | 有效的回文 | 简单 | 字符串操作 | [valid_palindrome.py](python/valid_palindrome.py) |
-| 72 | 多数元素 | 简单 | 数组操作 | [majority_element.py](python/majority_element.py) |
-| 73 | 杨辉三角 | 简单 | 数组操作 | [pascals_triangle.py](python/pascals_triangle.py) |
-| 74 | 杨辉三角 II | 简单 | 数组操作 | [pascals_triangle_ii.py](python/pascals_triangle_ii.py) |
-| 75 | 反转整数 | 简单 | 字符串操作 | [reverse_integer.py](python/reverse_integer.py) |
 | 76 | 平衡二叉树 | 简单 | 二叉树操作 | [balanced_binary_tree.py](python/balanced_binary_tree.py) |
 | 77 | 翻转二叉树 | 简单 | 二叉树操作 | [invert_binary_tree.py](python/invert_binary_tree.py) |
 | 78 | 二叉树的直径 | 简单 | 二叉树操作 | [diameter_of_binary_tree.py](python/diameter_of_binary_tree.py) |
@@ -198,9 +228,52 @@ python python/two_sum.py
 | 95 | 序列化和反序列化二叉树（DFS） | 困难 | 二叉树操作 | [serialize_and_deserialize_binary_tree_dfs.py](python/serialize_and_deserialize_binary_tree_dfs.py) |
 | 96 | 插入二叉搜索树 | 中等 | 二叉树操作 | [insert_into_a_binary_search_tree.py](python/insert_into_a_binary_search_tree.py) |
 | 97 | 删除二叉搜索树中的节点 | 中等 | 二叉树操作 | [delete_node_in_a_bst.py](python/delete_node_in_a_bst.py) |
-| 98 | 颜色分类 | 中等 | 数组操作 | [sort_colors.py](python/sort_colors.py) |
-| 99 | 合并区间 | 中等 | 数组操作 | [merge_intervals.py](python/merge_intervals.py) |
-| 100 | 插入区间 | 中等 | 数组操作 | [insert_interval.py](python/insert_interval.py) |
+
+### 动态规划
+
+| 序号 | 题目 | 难度 | 类别 | 文件 |
+|------|------|------|------|------|
+| 38 | 爬楼梯 | 简单 | 动态规划 | [climbing_stairs.py](python/climbing_stairs.py) |
+| 39 | 最大子序和 | 简单 | 动态规划 | [maximum_subarray.py](python/maximum_subarray.py) |
+| 40 | 买卖股票的最佳时机 | 简单 | 动态规划、贪心 | [best_time_to_buy_and_sell_stock.py](python/best_time_to_buy_and_sell_stock.py) |
+| 41 | 最小路径和 | 中等 | 动态规划 | [minimum_path_sum.py](python/minimum_path_sum.py) |
+| 42 | 单词拆分 | 中等 | 动态规划 | [word_break.py](python/word_break.py) |
+| 43 | 买卖股票的最佳时机 III | 困难 | 动态规划、贪心 | [best_time_to_buy_and_sell_stock_iii.py](python/best_time_to_buy_and_sell_stock_iii.py) |
+| 44 | 买卖股票的最佳时机 IV | 困难 | 动态规划、贪心 | [best_time_to_buy_and_sell_stock_iv.py](python/best_time_to_buy_and_sell_stock_iv.py) |
+| 61 | 最大子序和 | 简单 | 动态规划 | [max_subarray.py](python/max_subarray.py) |
+
+### 回溯算法
+
+| 序号 | 题目 | 难度 | 类别 | 文件 |
+|------|------|------|------|------|
+| 45 | 组合总和 | 中等 | 回溯 | [combination_sum.py](python/combination_sum.py) |
+| 46 | 组合总和 II | 中等 | 回溯 | [combination_sum_ii.py](python/combination_sum_ii.py) |
+| 47 | 全排列 | 中等 | 回溯 | [permutations.py](python/permutations.py) |
+| 48 | 全排列 II | 中等 | 回溯 | [permutations_ii.py](python/permutations_ii.py) |
+| 49 | 子集 | 中等 | 回溯 | [subsets.py](python/subsets.py) |
+| 50 | 子集 II | 中等 | 回溯 | [subsets_ii.py](python/subsets_ii.py) |
+| 51 | 单词搜索 | 中等 | 回溯 | [word_search.py](python/word_search.py) |
+
+### 二分查找
+
+| 序号 | 题目 | 难度 | 类别 | 文件 |
+|------|------|------|------|------|
+| 52 | 二分查找 | 简单 | 二分查找 | [search_insert.py](python/search_insert.py) |
+| 53 | x 的平方根 | 简单 | 二分查找 | [sqrt_x.py](python/sqrt_x.py) |
+| 54 | 寻找两个正序数组的中位数 | 困难 | 二分查找、双指针 | [median_of_two_sorted_arrays.py](python/median_of_two_sorted_arrays.py) |
+| 60 | 搜索插入位置 | 简单 | 二分查找 | [search_insert.py](python/search_insert.py) |
+
+### 贪心算法
+
+| 序号 | 题目 | 难度 | 类别 | 文件 |
+|------|------|------|------|------|
+| 55 | 跳跃游戏 | 中等 | 贪心 | [jump_game.py](python/jump_game.py) |
+| 56 | 跳跃游戏 II | 中等 | 贪心 | [jump_game_ii.py](python/jump_game_ii.py) |
+| 57 | 买卖股票的最佳时机 II | 简单 | 贪心 | [best_time_to_buy_and_sell_stock_ii.py](python/best_time_to_buy_and_sell_stock_ii.py) |
+
+<div align="center">
+  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=algorithm%20problem%20categories%20visualization%20in%20modern%20style&image_size=landscape_16_9" alt="Algorithm Categories Visualization" width="600">
+</div>
 
 ## 🤝 贡献指南
 
@@ -219,6 +292,62 @@ python python/two_sum.py
 4. 提交您的更改
 5. 创建一个 Pull Request
 
+### 📝 贡献模板
+
+```python
+"""
+题目名称 (English Title)
+
+问题描述：
+详细描述问题
+
+使用场景：
+- 场景1
+- 场景2
+
+算法难度：简单/中等/困难
+
+时间复杂度：O(n)
+空间复杂度：O(1)
+
+其他信息：
+- 补充信息1
+- 补充信息2
+"""
+
+from typing import List
+
+
+def solution(...):
+    """
+    函数描述
+    
+    Args:
+        参数1: 描述
+        参数2: 描述
+    
+    Returns:
+        返回值: 描述
+    """
+    # 实现代码
+
+
+if __name__ == "__main__":
+    # 测试用例
+    test_cases = [
+        (输入1, 输入2, 预期输出),
+        # 更多测试用例
+    ]
+    
+    for 输入1, 输入2, expected in test_cases:
+        result = solution(输入1, 输入2)
+        print(f"Input: {输入1}, {输入2}")
+        print(f"Expected: {expected}")
+        print(f"Result: {result}")
+        print(f"Pass: {result == expected}")
+        print("-" * 50)
+```
+
 ## 📄 许可证
 
 本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
@@ -228,10 +357,25 @@ python python/two_sum.py
 - 感谢所有为算法学习做出贡献的开发者
 - 感谢 LeetCode 平台提供的算法题资源
 - 感谢 GitHub 提供的代码托管服务
+- 感谢 Python 社区提供的强大工具和库
+
+## 📞 联系方式
+
+如果您有任何问题或建议，欢迎通过以下方式联系我们：
+
+- GitHub Issues: [https://github.com/Geekmister/AlgorithmProblem/issues](https://github.com/Geekmister/AlgorithmProblem/issues)
 
 <div align="center">
   <h3>🎉 开始您的算法学习之旅吧！</h3>
   <p>希望这些算法题能够帮助您提升算法能力，为面试做好准备！</p>
   <br>
   <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=algorithm%20learning%20journey%20with%20code%20and%20success%20in%20modern%20style&image_size=landscape_16_9" alt="Algorithm Learning Journey" width="600">
+  <br>
+  <br>
+  <a href="https://github.com/Geekmister/AlgorithmProblem" style="text-decoration: none;">
+    <img src="https://img.shields.io/github/stars/Geekmister/AlgorithmProblem?style=for-the-badge" alt="GitHub Stars">
+  </a>
+  <a href="https://github.com/Geekmister/AlgorithmProblem" style="text-decoration: none;">
+    <img src="https://img.shields.io/github/forks/Geekmister/AlgorithmProblem?style=for-the-badge" alt="GitHub Forks">
+  </a>
 </div>
