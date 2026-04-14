@@ -1,9 +1,6 @@
 # 算法题集合 (Algorithm Problems)
 
 <div align="center">
-  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=algorithm%20problem%20collection%20with%20code%20and%20charts%20in%20modern%20style&image_size=landscape_16_9" alt="Algorithm Problems" width="800">
-  <br>
-  <br>
   <a href="https://github.com/Geekmister/AlgorithmProblem"><img src="https://img.shields.io/github/stars/Geekmister/AlgorithmProblem?style=for-the-badge" alt="GitHub Stars"></a>
   <a href="https://github.com/Geekmister/AlgorithmProblem"><img src="https://img.shields.io/github/forks/Geekmister/AlgorithmProblem?style=for-the-badge" alt="GitHub Forks"></a>
   <a href="https://github.com/Geekmister/AlgorithmProblem"><img src="https://img.shields.io/github/issues/Geekmister/AlgorithmProblem?style=for-the-badge" alt="GitHub Issues"></a>
@@ -368,9 +365,6 @@ if __name__ == "__main__":
 <div align="center">
   <h3>🎉 开始您的算法学习之旅吧！</h3>
   <p>希望这些算法题能够帮助您提升算法能力，为面试做好准备！</p>
-  <br>
-  <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=algorithm%20learning%20journey%20with%20code%20and%20success%20in%20modern%20style&image_size=landscape_16_9" alt="Algorithm Learning Journey" width="600">
-  <br>
   <br>
   <a href="https://github.com/Geekmister/AlgorithmProblem" style="text-decoration: none;">
     <img src="https://img.shields.io/github/stars/Geekmister/AlgorithmProblem?style=for-the-badge" alt="GitHub Stars">
